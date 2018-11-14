@@ -5,7 +5,17 @@
  Template:     twentysixteen
 */
 
-/*Change the colour on the home page / Content to red only*/
+/*Front Page (Homr page)*/
 .home .entry-content{
 	color: red;
+}
+
+
+/*Team Page */
+.page-template-template-page-team{
+	background-color: green;
+}
+
+.page-template-template-page-team #page{
+	background-color: green;
 }
