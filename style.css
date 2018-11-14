@@ -4,3 +4,8 @@
  Description:  This is the first theme created by John a child theme of WordPress' Twenty Sixteen theme
  Template:     twentysixteen
 */
+
+/*Change the colour on the home page / Content to red only*/
+.home .entry-content{
+	color: red;
+}
