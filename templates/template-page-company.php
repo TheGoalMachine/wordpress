@@ -22,7 +22,7 @@ get_header();
 
 			if (get_field('company_logo')){ ?>
 
-			<img src="<?php get_field('company_logo')[‘sizes’][‘thumbnail’];?> ">
+			<img src="<?php the_field('company_logo');?> ">
 
 
 

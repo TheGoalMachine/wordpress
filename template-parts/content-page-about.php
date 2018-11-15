@@ -12,6 +12,13 @@
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		Text added after the Title for About only.
+
+
+		<?php
+			if (get_field('telephone_number')){  ?>
+   			 <h2> <?php the_field('telephone_number')?> </h2>
+		<?php } ?>
+
 	</header><!-- .entry-header -->
 
 	<?php twentysixteen_post_thumbnail(); ?>
